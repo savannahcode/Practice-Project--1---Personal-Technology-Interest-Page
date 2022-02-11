@@ -1,7 +1,6 @@
 *{ 
     margin: 0;
     font-family: 'Poppins', sans-serif;
-    color: #ffffff;
 }
 
 body{
@@ -9,6 +8,7 @@ body{
     margin: 0 auto; */
     background-color: rgb(233, 233, 233);
     border: 1px solid #ffffff;
+    color: #000000;
 }
 
 header{
@@ -23,12 +23,27 @@ header img{
 
 main{
     width: auto;
-    background-color: greenyellow;
 }
 
 #bio{
-    background-color: cornflowerblue;
     display: flex;
+}
+
+#name-date{
+    display: flex;
+    justify-content: space-between;
+}
+
+#bio-choose{
+    width: 100%; 
+}
+
+#choose-list{
+    padding: 1rem;
+}
+
+#choose-list h4{
+    margin-bottom: 1rem;
 }
 
 #bio img{
@@ -37,8 +52,9 @@ main{
 }
 
 #tech{
-    background-color: #a8f5de;
     height: 300px;
+    display: flex;
+    justify-content: space-between;
 }
 
 #tech img{
@@ -49,8 +65,12 @@ main{
 }
 
 #interest{
-    background-color: #8e6c77;
     height: 200px;
+}
+
+.answerBox{
+    background-color: #006400;
+    color: #ffffff;
 }
 
 #copyright {
