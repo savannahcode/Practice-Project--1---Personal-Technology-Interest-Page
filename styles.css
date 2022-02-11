@@ -1,0 +1,58 @@
+*{ 
+    margin: 0;
+    font-family: 'Roboto';
+}
+
+body{
+    width: auto;
+    margin: 0 auto;
+    background-color: rgb(233, 233, 233);
+    border: 1px solid #ffffff;
+}
+
+header{
+    text-align: center;
+}
+
+header img{
+    margin: 0 auto;
+    display: block;
+    height: 15rem;
+}
+
+main{
+    width: auto;
+    background-color: greenyellow;
+}
+
+#bio{
+    background-color: cornflowerblue;
+    height: 300px;
+}
+
+#bio img{
+    height: 200px;
+    /* object-fit: */
+}
+
+#tech{
+    background-color: #a8f5de;
+    height: 300px;
+}
+
+#tech img{
+    flex: auto;
+    /* display: flex; */
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+#interest{
+    background-color: #8e6c77;
+    height: 200px;
+}
+
+#copyright {
+    color: rbg(50, 50, 205);
+    background-color: chartreuse;
+}
