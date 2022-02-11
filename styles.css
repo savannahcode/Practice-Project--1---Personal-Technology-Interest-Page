@@ -4,19 +4,19 @@
 }
 
 body{
-    width: auto;
-    margin: 0 auto;
+   /*  width: auto;
+    margin: 0 auto; */
     background-color: rgb(233, 233, 233);
     border: 1px solid #ffffff;
 }
 
 header{
     text-align: center;
+    display: flex;
 }
 
 header img{
     margin: 0 auto;
-    display: block;
     height: 15rem;
 }
 
@@ -27,7 +27,7 @@ main{
 
 #bio{
     background-color: cornflowerblue;
-    height: 300px;
+    display: flex;
 }
 
 #bio img{
