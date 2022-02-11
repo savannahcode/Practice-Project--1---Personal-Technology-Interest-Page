@@ -4,8 +4,8 @@
 }
 
 body{
-   /*  width: auto;
-    margin: 0 auto; */
+    width: auto;
+    margin: 0 auto;
     background-color: rgb(233, 233, 233);
     border: 1px solid #ffffff;
     color: #000000;
@@ -13,16 +13,14 @@ body{
 
 header{
     text-align: center;
-    display: flex;
 }
 
 header img{
-    margin: 0 auto;
-    height: 15rem;
+    height: 150px;
 }
 
-main{
-    width: auto;
+section{
+    margin: 2rem 0;
 }
 
 #bio{
@@ -36,6 +34,9 @@ main{
 
 #bio-choose{
     width: 100%; 
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 #choose-list{
@@ -48,20 +49,29 @@ main{
 
 #bio img{
     height: 200px;
-    /* object-fit: */
 }
 
 #tech{
-    height: 300px;
     display: flex;
     justify-content: space-between;
 }
 
-#tech img{
-    flex: auto;
-    /* display: flex; */
-    flex-direction: row;
-    justify-content: space-around;
+figure {
+    width: 10rem;
+    text-align: center;
+    font-size: small;
+}
+
+figure img{
+    height: 10rem;
+}
+
+figcaption{
+    color: #ffffff;
+    background-color: #0000006b;
+    padding: .5rem;
+    position: relative;
+    bottom: 1.5rem;
 }
 
 #interest{
@@ -71,6 +81,11 @@ main{
 .answerBox{
     background-color: #006400;
     color: #ffffff;
+    padding: 1rem;
+}
+
+#interest h4{
+    margin-bottom: 1rem;
 }
 
 #copyright {
