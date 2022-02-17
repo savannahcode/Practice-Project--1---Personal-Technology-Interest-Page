@@ -4,10 +4,9 @@
 }
 
 body{
-    width: auto;
+    width: 960px;
     margin: 0 auto;
     background-color: rgb(233, 233, 233);
-    border: 1px solid #ffffff;
     color: #000000;
 }
 
@@ -37,6 +36,7 @@ section{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    margin-left: 1rem;
 }
 
 #choose-list{
@@ -64,6 +64,7 @@ figure {
 
 figure img{
     height: 10rem;
+    width: 160px;
 }
 
 figcaption{
@@ -72,6 +73,10 @@ figcaption{
     padding: .5rem;
     position: relative;
     bottom: 1.5rem;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
 }
 
 #interest{
@@ -89,6 +94,7 @@ figcaption{
 }
 
 #copyright {
-    color: rbg(50, 50, 205);
-    background-color: chartreuse;
+    color: #ffffff;
+    background-color: #006400;
+    text-align: center;
 }
